@@ -1,0 +1,25 @@
+body,
+header,
+header .topnav,
+main,
+.hero-section,
+.hero-left,
+.projects-section,
+.projects,
+.project-card,
+.testimonials-section,
+.testimonial,
+.cta-section,
+.cta-left,
+.cta-right {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+header,
+header .topnav,
+.projects,
+.cta-section {
+  flex-direction: row;
+}
