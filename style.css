@@ -1,3 +1,24 @@
+/* PLACEHOLDERS */
+
+/* img */
+img {
+  display: block;
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100px;
+}
+
+/* PAGE */
+
+body * {
+  padding: 0 5% 0 5%;
+}
+
 /* SETUP FLEX LAYOUT */
 
 /* Apply flex-direction: column; */
@@ -29,18 +50,9 @@ header .topnav,
   flex-direction: row;
 }
 
+/* HEADER */
 
-/* PLACEHOLDERS */
-
-/* img */
-img {
-  display: block;
-  background-color: aqua;
-  width: 100px;
-  height: 100px;
-}
-
-.hero-img {
-  width: 100%;
-  height: 100px;
+header {
+  justify-content: space-between;
+  background-color: #1f2937;
 }
