@@ -1,3 +1,6 @@
+/* SETUP FLEX LAYOUT */
+
+/* Apply flex-direction: column; */
 body,
 header,
 header .topnav,
@@ -17,6 +20,7 @@ main,
   list-style: none;
 }
 
+/* Apply flex-direction: row; */
 header,
 header .topnav,
 .hero-section,
@@ -25,9 +29,18 @@ header .topnav,
   flex-direction: row;
 }
 
+
+/* PLACEHOLDERS */
+
+/* img */
 img {
   display: block;
   background-color: aqua;
   width: 100px;
+  height: 100px;
+}
+
+.hero-img {
+  width: 100%;
   height: 100px;
 }
