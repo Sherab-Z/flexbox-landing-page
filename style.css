@@ -19,7 +19,15 @@ main,
 
 header,
 header .topnav,
+.hero-section,
 .projects,
 .cta-section {
   flex-direction: row;
+}
+
+img {
+  display: block;
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
 }
