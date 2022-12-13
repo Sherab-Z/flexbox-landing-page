@@ -11,7 +11,7 @@
 header, 
 section,
 footer {
-  padding: 0 5% 0 5%;
+  padding: 0 15% 0 15%;
 }
 
 /* PLACEHOLDERS */
@@ -64,17 +64,20 @@ header .topnav,
 
 header {
   justify-content: space-between;
+  align-items: center;
   background-color: #1f2937;
   color: #f9faf8;
+  height: 70px;
 }
 
 header .logo {
   font-size: 24px;
+  margin-right: auto;
 }
 
 header .topnav {
   justify-content: space-between;
-  flex-basis: 400px;
+  flex-basis: 300px;
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -84,6 +87,42 @@ header .topnav {
 .hero-section {
   background-color: #1f2937;
   color: #e5e7eb;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.hero-left,
+.hero-right {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.hero-section p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-section button {
+  width:fit-content;
+  width: -moz-fit-content;
+  background-color: #3882f6;
+  font-size:large;
+  color:#f9faf8;
+  border:none;
+  padding:10px 20px;
+  border-radius: 10px;
+  margin: 15px 0 15px 0;
+}
+
+.hero-section img {
+  width: 500px;
+  height: 250px;
 }
 
 /* PROJECTS SECTION */
