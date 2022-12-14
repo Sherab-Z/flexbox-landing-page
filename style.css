@@ -60,7 +60,8 @@ main,
 .testimonial,
 .cta-section,
 .cta-left,
-.cta-right {
+.cta-right,
+footer {
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -162,6 +163,7 @@ header .topnav {
 
 .projects-section h2 {
   margin-bottom: 5%;
+  font-size: 32px;
 }
 
 /* Project cards */
@@ -219,7 +221,8 @@ header .topnav {
 .cta-section {
   flex: 1 0 auto;
   background-color: #3882f6;
-  padding: 4% 10%;
+  color: #f9faf8;
+  padding: 3% 10%;
   margin: 5% 15% 5% 15%;
   border-radius: 10px;
 }
@@ -235,22 +238,27 @@ header .topnav {
 }
 
 .cta-heading {
-  color: #f9faf8;
   font-size: 24px;
+  margin-bottom: 2px;
 }
 
 .cta-text {
-  color: #f9faf8;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: extra-light;
 }
 
 .cta-btn {
-  border: 2px solid #f9faf8;
+  border: 2px solid;
 }
 
 /* FOOTER */
 
 footer {
+  height: 100px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
 
+footer p {
+  margin: auto;
 }
