@@ -130,7 +130,8 @@ header .topnav {
   color: #e5e7eb;
 }
 
-.hero-section button {
+.hero-section button,
+.testimonials-section button {
   width:fit-content;
   width: -moz-fit-content;
   background-color: #3882f6;
@@ -198,7 +199,25 @@ header .topnav {
 
 .testimonials-section {
   background-color: #e5e7eb;
+  height: fit-content;
+  padding: 8% 26% 8% 26%;
 }
+
+.testimonial  {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.client-name {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+
 
 /* CTA SECTION */
 
