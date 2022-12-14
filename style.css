@@ -44,10 +44,6 @@ footer {
   padding: 0 15% 0 15%;
 }
 
-/* PLACEHOLDERS */
-
-
-
 /* SETUP FLEX LAYOUT */
 
 /* Apply flex-direction: column; */
@@ -131,7 +127,8 @@ header .topnav {
 }
 
 .hero-section button,
-.testimonials-section button {
+.testimonials-section button,
+.cta-btn {
   width:fit-content;
   width: -moz-fit-content;
   background-color: #3882f6;
@@ -217,8 +214,43 @@ header .topnav {
   color: #1f2937;
 }
 
-
-
 /* CTA SECTION */
 
+.cta-section {
+  flex: 1 0 auto;
+  background-color: #3882f6;
+  padding: 4% 10%;
+  margin: 5% 15% 5% 15%;
+  border-radius: 10px;
+}
+
+.cta-left {
+  flex: 2;
+}
+
+.cta-right {
+  flex: 1;
+  margin: auto 3% auto 5%;
+  align-items: flex-end;
+}
+
+.cta-heading {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.cta-text {
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: extra-light;
+}
+
+.cta-btn {
+  border: 2px solid #f9faf8;
+}
+
 /* FOOTER */
+
+footer {
+
+}
